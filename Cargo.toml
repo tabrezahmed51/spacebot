@@ -150,7 +150,7 @@ bollard = "0.18"
 semver = "1"
 
 # Skill installation
-zip = "3"
+zip = "9"
 tempfile = "3"
 
 # Prometheus metrics (optional, behind "metrics" feature)
