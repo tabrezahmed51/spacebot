@@ -45,7 +45,7 @@ tracing-appender = "0.2"
 
 # OpenTelemetry
 opentelemetry = "0.31"
-opentelemetry_sdk = { version = "0.32", features = ["rt-tokio", "experimental_trace_batch_span_processor_with_async_runtime"] }
+opentelemetry_sdk = { version = "0.33", features = ["rt-tokio", "experimental_trace_batch_span_processor_with_async_runtime"] }
 opentelemetry-otlp = { version = "0.31", default-features = false, features = ["http-proto", "reqwest-client"] }
 opentelemetry-semantic-conventions = "0.31"
 tracing-opentelemetry = "0.32"
@@ -62,7 +62,7 @@ notify = "7"
 aes-gcm = "0.10"
 sha2 = "0.10"
 argon2 = "0.5"
-rand = "0.9"
+rand = "0.10"
 
 # UUID generation
 uuid = { version = "1.15", features = ["v4", "serde"] }
@@ -81,7 +81,7 @@ pin-project = "1"
 
 # Schema validation
 schemars = "1.2"
-rmcp = { version = "1.1", features = ["client", "reqwest", "transport-child-process", "transport-streamable-http-client", "transport-streamable-http-client-reqwest"] }
+rmcp = { version = "2.1", features = ["client", "reqwest", "transport-child-process", "transport-streamable-http-client", "transport-streamable-http-client-reqwest"] }
 
 # Command line (for main.rs)
 clap = { version = "4.5", features = ["derive"] }
@@ -150,7 +150,7 @@ bollard = "0.18"
 semver = "1"
 
 # Skill installation
-zip = "2"
+zip = "3"
 tempfile = "3"
 
 # Prometheus metrics (optional, behind "metrics" feature)
